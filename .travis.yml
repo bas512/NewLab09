@@ -1,0 +1,5 @@
+language: node_js
+
+install : true
+script : true
+after_success : -scp -i "se234_05.pem" ubuntu@ec2-54-213-71-15:/var/www/html/
