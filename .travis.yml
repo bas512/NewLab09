@@ -5,10 +5,10 @@ before_install:
 install: true
 script: true
 after_success: 
- - scp -i "se234_05.pem" -r html/* ubuntu@54-213-71-15:/var/www/html/
+ - scp -i "se234_05.pem" -r html/* ubuntu@54.213.71.15:/var/www/html/
 env:
   global:
     secure: GfrhkQNEFXOxAwHpsBfkBmzRkQMWPk8c3syfSTbRmmPjvPBBx3UBpWuJOq5UoQwZkPqHPTXVxVL18MRRASM+ai6/KdzvCVK2++y0/YkoTzCHRpRg7XkfhABLXddKYJ/lsou5cKUMZZXqfzkQ4BXqdawOVd9yAEYVp/qDD6lH3J9Nenj/i0/ijMoGpqT2pxdhLjFUtNkYRdGyc5u6Zz4wNP9dwvUMkOQMoiGllzz20VpJqK7TJiHMuau1l+PVwPBhln9hbl2UIPqx1XHs9PgWZM3IuLLjYIsFw0wEq1c1bDi4q4Kui8h2Yh0t3VB3VyDgcqhFKc1QaQ9al2wT6i+UJu+4yUfHuH0OIm8YQBIeobKW8bReD+Worg/8dvburkrPO4rY+IfEAJDDjd07HhJBRM02w1/xTCgldoLYfy2FEnWHD9udyFVxZc9jU7OOFxbKnwTqVPhRqBsXXHoGYPyIkDMdawSAGDUYluyWBt7ofwLZPnr4q08+FG9DMOux0KGXagnatx4JIbBmnrGDIM+DTEDjXGISXCEoyaZyPEiuCDXts7Lj4ZBaM5bB/3KeCnBTtwPD3mhF6rgaG/RsY6PyahgD/BsBNlrNtIaaiMQS4DOa1QTexn9DAPjhXWTX1vjP09krerqM/A3V95NyQj7OQ6eXSz7PZTBUCrD96CBXqlI=
 addons :
  ssh_known_hosts:
- - 54-213-71-15
+ - 54.213.71.15
