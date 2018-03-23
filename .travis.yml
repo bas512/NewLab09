@@ -5,7 +5,6 @@ before_install:
 install: true
 script: true
 after_success: 
- - ls -l 
  - scp -i "se234_05.pem" -r html/* ubuntu@54-213-71-15:/var/www/html/
 env:
   global:
